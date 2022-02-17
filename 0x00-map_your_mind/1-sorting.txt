@@ -1,0 +1,11 @@
+FUNCTION name sort parameter value ARRAY 
+VARIABLE to swap
+FOR loop 
+Start count 0 up to ARRAY length
+FOR loop
+Start count the first loop counter + 1
+IF ARRAY index first loop counter > ARRAY index second loop counter
+Swap = ARRAY index first loop counter
+ARRAY index first loop counter = ARRAY index second loop counter
+ARRAY index second loop counter = swap
+RETURN ARRAY

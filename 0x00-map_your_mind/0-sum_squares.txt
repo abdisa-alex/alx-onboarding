@@ -1,0 +1,6 @@
+FUNCTION name square parameter value ARRAY 
+VARIABLE to sum
+FOR loop 
+Start count 0 up to ARRAY length
+sum += ARRAY index counter power 2
+RETURN sum
